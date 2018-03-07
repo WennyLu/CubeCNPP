@@ -1,0 +1,11 @@
+15:06:21.225 INFO  cnpp.Framework.DriverUtils - Get system properties: cnpp.uitest.browser = firefox
+15:06:21.793 INFO  cnpp.Framework.DriverUtils - Driver started
+15:06:27.305 ERROR cnpp.Framework.WrappedRemoteWebDriver - Through id method find search- failed, reason: Unable to locate element: #search\-
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'YECOLNEA186', ip: '10.66.57.53', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: cnpp.Framework.WrappedRemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 26300, moz:profile: D:\Users\WenyiLU\AppData\Lo..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7680716e-72dd-4748-9d02-3aabaa926246
+*** Element info: {Using=id, value=search-}
+15:06:27.765 INFO  cnpp.Framework.DriverUtils - Driver service stopped

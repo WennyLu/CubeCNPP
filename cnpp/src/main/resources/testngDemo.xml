@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Cube_cnpp_NRT">
+
+	<test name="TestTestngDemo">
+		<classes>
+			<class name="cnpp.TestCases.test.TestngDemo3" >
+			<methods>
+				<include name="case4" />
+				<include name="case3" />
+			</methods>
+			</class>
+			<class name="cnpp.TestCases.test.TestngDemo4" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,58 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Cube_cnpp_NRT" preserve-order="true">
+
+	<test name="Tests" preserve-order="true">
+		<classes>
+			<class name="cnpp.SanityCheck.test.Severity_sanity_check">
+				<methods>
+					<include name="Test_login" />
+					<include name="Test_addProductToCart" />
+					<include name="Test_homedelivery" />
+				</methods>
+			</class>
+			<class name="cnpp.SanityCheck.test.Severity_sanity_check">
+				<methods>
+					<include name="Test_createAccount" />
+				</methods>
+			</class>
+			<class name="cnpp.SanityCheck.test.Severity_sanity_check">
+				<methods>
+					<include name="Test_login" />
+					<include name="Test_Test_logout" />
+				</methods>
+			</class>
+			<class name="cnpp.SanityCheck.test.Severity_sanity_check">
+				<methods>
+					<include name="Test_login" />
+					<include name="Test_loginRestartBrowserAndLoginAgain" />
+				</methods>
+			</class>
+			<class name="cnpp.SanityCheck.test.Severity_sanity_check">
+				<methods>
+					<include name="Test_searchHintsPopupResults" />
+				</methods>
+			</class>
+			<class name="cnpp.SanityCheck.test.Severity_sanity_check">
+				<methods>
+					<include name="Test_login" />
+					<include name="Test_addProductToCart" />
+					<include name="Test_pickUpInStore" />
+					<include name="Test_unionpay" />
+				</methods>
+			</class>
+			<class name="cnpp.SanityCheck.test.Severity_sanity_check">
+				<methods>
+					<include name="Test_notLoginItConnects" />
+					<include name="Test_pickUpInStore" />
+					<include name="Test_unionpay" />
+				</methods>
+			</class>
+			<class name="cnpp.SanityCheck.test.Severity_sanity_check">
+				<methods>
+					<include name="Test_changePageLanguage" />
+					<include name="Test_postAReviewLlik" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
