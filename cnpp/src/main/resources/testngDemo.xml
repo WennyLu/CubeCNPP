@@ -1,15 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Cube_cnpp_NRT">
 
-	<test name="TestTestngDemo">
+	<test name="TestTestngDemo" preserve-order="true">
 		<classes>
-			<class name="cnpp.TestCases.test.TestngDemo3" >
-			<methods>
-				<include name="case4" />
-				<include name="case3" />
-			</methods>
+			<class name="cnpp.SanityCheck.test.Severity_sanity_check" >
+				<methods>
+					<include name="Test_postAReviewLlik" />
+				</methods>
 			</class>
-			<class name="cnpp.TestCases.test.TestngDemo4" />
 		</classes>
 	</test>
 </suite>
